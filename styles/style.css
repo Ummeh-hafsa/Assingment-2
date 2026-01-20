@@ -42,6 +42,7 @@
 .logo{
   color: white;
   padding-left: 200px;
+  font-size: 1rem;
 }
 .logo .logo-part{
   color: #fb09b2b3;
@@ -63,8 +64,79 @@
   width: 135px;
   height: 44px;
   padding: 12 16;
+  border-radius: 10000px;  
+}
+#hero-section{
+  width: 100%;
+  height: 760px;
+  background: url("../assets/hero-bg.png");
+  background-position: center;
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+.hero{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 101px 525px;
+}
+.hero .hero-circle{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.hero .btn-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.hero .btn-1 .first{
+  width: 201;
+  height: 44px;
+  padding:12 20 ;
   border-radius: 10000px;
+  background-color: #fb09b2b3;
+  color: #FFFFFF;
+  display: flex;
+  place-items: center;
+  border: none;
   
-  
+}
+.hero .btn-1 .second{
+  width: 147;
+  height: 44px;
+  border: 1px solid #00FF88;
+  color: #00FF88;
+  background-color: none;
+  font-weight: 400;
+  display: flex;
+  place-items: center;
+  padding: 12px 20px ;
+  border-radius: 10000px;
+  background-color: transparent;
+}
+.hero .after-hero{
+  /*width: 550;
+  height: 168px;*/
+}
+.hero .tech-wave{
+ text-align: center;
+ color: #FFFFFF;
+ font-weight: 600;
+ font-size: 60px;
+ width: 550;
+ height: 73px;
+ margin-top: 40px;
+ margin-bottom: 8px;
+ 
+}
+.hero .skill{
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+  white-space: nowrap;
+  width: 550;
+  height: 19px;
   
 }
