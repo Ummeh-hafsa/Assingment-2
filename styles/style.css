@@ -138,5 +138,63 @@
   white-space: nowrap;
   width: 550;
   height: 19px;
-  
 }
+#about-section{
+  width: 100%;
+  max-width: 1600;
+  background-color: #1A0B2E;
+  color: #FFFFFF;
+  }
+  #about-section .about-container{
+    text-align: center;
+  }
+  #about-section .about-heading{
+  text-align: center;
+  padding: 50px 200px 0px 200px;
+  width: 1200;
+  height: 222px;
+  }
+  #about-section .about-heading .podcast{
+    font-size: 48px;
+    font-weight: 600;
+  }
+  #about-section .about-heading .introduction{
+  font-weight: 400;
+  font-size: 16px;
+  width: 1200;
+  line-height: 20px;
+  }
+  #about-section .about-info{
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 120px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 160px;
+  }
+  #about-section .about-info .info-card .info{
+   color: #00FF88;
+   font-weight: 900;
+  }
+#about-section .about-info .info-card .card{
+  font-weight: 240;
+  height: 20px;
+  font-size: 16px;
+  width: 400;
+  line-height: 20px;
+}
+
+
+
+
+
+
+  
+/*#about-section .about-container{
+margin: 0 auto;
+text-align: center;
+background-color: aqua;
+}*/
